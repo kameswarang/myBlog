@@ -1,0 +1,14 @@
+.loginWrapper {
+    margin: auto;
+    padding: 10px;
+    height: 50%;
+    width: 37%;
+}
+
+.loginWrapper > input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    margin: 1px auto;
+}

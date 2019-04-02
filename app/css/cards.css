@@ -1,0 +1,43 @@
+.cardHolder {
+    list-style-type: none;
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.cardHolder > li {
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.cardHolder > li:hover {
+    border: solid 1px black;
+}
+
+.cardHolder a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-size: larger;
+    font-weight: 10;
+    color: #AA1111;
+}
+
+.sub {
+    font-size: medium;
+    color: #808080;
+}
+
+.body {
+    display: block;
+}
+
+.UD {
+}
+
+.UD > a{
+    display: inline-block;
+    margin: 5px;
+    color: blue;
+}

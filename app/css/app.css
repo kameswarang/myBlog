@@ -1,0 +1,64 @@
+@import url(nav.css);
+
+body {
+    font: 1em "Helvectica", sans-serif;
+    background-color: #edeff0;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 5px 20px;
+    width: 100%;
+    min-width: 900px;
+    max-width: 1200px;
+    background-color: #fff;
+}
+
+.banner {
+    padding: 5px 0;
+}
+
+.banner > * {
+    display: inline;
+}
+.banner > h4 {
+    float: right;
+}
+
+.contentWrapper {
+    min-height: 500px;
+    padding: 5px 0;
+}
+
+.pInMiddle {
+  padding: 5px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 200;
+}
+
+input, textarea {
+    font-size: inherit;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 20px;
+}
+
+table th {
+    text-align: left;
+}
+
+.faded {
+    color: #bbb;
+}
+
+.github {
+    
+}

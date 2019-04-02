@@ -1,0 +1,41 @@
+.formWrapper {
+    margin: 0px auto;
+    padding: 10px;
+    height: 80%;
+    width: 80%;
+}
+
+.formWrapper > div {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.formWrapper h2 {
+    text-align: center;
+}
+
+.formWrapper label {
+    width: 10%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.formWrapper input, textarea {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #bbb;
+
+}
+
+.formWrapper textarea {
+    width: 100%;
+    height: auto;
+    font: inherit;
+}
+
+.formWrapper input[type="submit"] {
+    width: 20%;
+    margin: 0px auto;
+    display: block;
+}
+

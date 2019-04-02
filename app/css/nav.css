@@ -1,0 +1,39 @@
+.navBar {
+    background-color: #333;
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navBar li {
+    float:left;
+    padding: 8px;
+}
+
+.navBar li:hover {
+    background-color: #1f2224;
+}
+
+.navBar a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#login {
+    display: block;
+    width: 125px;
+    margin: 0px auto;
+    text-decoration: none;
+    color:white;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+#logout {
+    float: right;
+}
