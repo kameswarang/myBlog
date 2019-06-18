@@ -5,4 +5,4 @@ The public section displays all the articles written by various authors. It also
 
 'Login as Admin' can be used to access the admin section. It lets writers publis new articles and manage existing ones. Also, new writers can create an account to publish their articles.
 
-This app uses vanilla PHP, DAO design pattern with MySQL and can be accessed at http://35.244.50.9/myBlog
+This app uses vanilla PHP, DAO design pattern with MySQL and can be accessed at https://myblog-kganesh1795.herokuapp.com
