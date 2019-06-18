@@ -1,8 +1,8 @@
 <?php
-define('ROOT', '/home/kganesh1795/www/myBlog');
+define('ROOT', '/app');
 define('APP_ROOT', ROOT . '/app');
 define('VIEW_ROOT', APP_ROOT . '/views');
-define('BASE_URL', '//35.244.50.9/myBlog');
+define('BASE_URL', '//myblog-kganesh1795.herokuapp.com');
 
 // This function is used in the below required scripts
 function logError($e) {

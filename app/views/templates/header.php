@@ -11,7 +11,7 @@
             <div class='banner'>
                 <h1>my Blog</h1>
             	<div class="github" onclick="location.href='https://github.com/kameswarang/myBlog'">
-            		<img src="<?= BASE_URL; ?>/app/img/github.png"/>
+            		<img src="<?= BASE_URL; ?>/app/images/github.png"/>
             	</div>
                 <?php if(isset($_SESSION['currUser'])): ?>
                     <h4><?= $_SESSION['currUser']['name']; ?></h4>

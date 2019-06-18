@@ -2,12 +2,24 @@
 include('database.php');
 
 class CMS {
-    private $dsn = 'mysql:host=35.244.56.200;port=3306;dbname=myBlogDB';
-    private $usr = 'kameswarang';
-    private $pwd = 'kantis';
+    private $usr, $pwd, $dsn;
+    //private $dsn = 'mysql:host=35.244.56.200;port=3306;dbname=myBlogDB';
+
     private $db;
 
     function __construct() {
+        $url = getenv("CLEARDB_DATABASE_URL");
+        $p = "/(:?\/+)|:|@|\?/";
+        $r = preg_split($p, $url);
+        
+        $provider = $r[0];
+        $host = $r[3];
+        $dbname = $r[4];
+       
+        $this->usr = $r[1];
+        $this->pwd = $r[2];
+        $this->dsn = $provider . ":host=" . $host . ";port=3306;dbname=" . $dbname;
+        
         try {
             $this->db = new Database($this->dsn, $this->usr, $this->pwd);
         }

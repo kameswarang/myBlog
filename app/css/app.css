@@ -5,7 +5,6 @@ body {
     background-color: #edeff0;
     margin: 0;
 }
-
 .wrapper {
     margin: 0 auto;
     padding: 5px 20px;
@@ -14,51 +13,54 @@ body {
     max-width: 1200px;
     background-color: #fff;
 }
-
 .banner {
-    padding: 5px 0;
+    padding: 5px 0 10px 0;
 }
-
+.banner > h1{
+    line-height: 30px;
+    vertical-align: middle;
+}
 .banner > * {
     display: inline;
 }
 .banner > h4 {
     float: right;
 }
-
 .contentWrapper {
     min-height: 500px;
     padding: 5px 0;
 }
-
 .pInMiddle {
   padding: 5px;
   margin: 10px auto;
   text-align: center;
 }
-
 h1, h2, h3, h4, h5 {
     font-weight: 200;
 }
-
 input, textarea {
     font-size: inherit;
 }
-
 table {
     width: 100%;
     table-layout: fixed;
     margin-bottom: 20px;
 }
-
 table th {
     text-align: left;
 }
-
 .faded {
     color: #bbb;
 }
-
 .github {
-    
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 30px;
+    padding-left: 5px;
+}
+.github > img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
